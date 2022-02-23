@@ -7,9 +7,12 @@ public class Character
     [SerializeField]
     private string name;
     [SerializeField]
-    public Sprite sprite;
+    private Sprite sprite;
+    [SerializeField]
+    private int health;
     public string Name { get; private set; }
     public Sprite CharSprite { get; private set; }
+    public int Health { get; private set; }
 
     //characters keep track of the overall list of cards, and the available cards.
     //The overall list is all the available cards
@@ -19,7 +22,7 @@ public class Character
 
     //no need to serialize available cards because the currently available cards are not editied in the editor.
     List<Card[]> availableCards;
-    public List<Card[]> AvailableCards { get; private set; }
+    public List<Card> AvailableCards { get; private set; }
     
     
     public Character(string name, Sprite sprite, Card[] cards)
@@ -27,7 +30,14 @@ public class Character
         Name = name;
         CharSprite = sprite;
         Cards = cards;
+        AvailableCards = new List<Card>(cards);
+        
 
+    }
+    public void initialize()
+    {
+        AvailableCards = new List<Card>(Cards);
+        
     }
 
 

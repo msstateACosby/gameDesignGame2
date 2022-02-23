@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4082247609
+    locked: 0
+  - name: BackgroundSprites
+    uniqueID: 2035254881
+    locked: 0
+  - name: Characters
+    uniqueID: 1974116103
+    locked: 0
+  - name: Effects
+    uniqueID: 168001797
+    locked: 0
