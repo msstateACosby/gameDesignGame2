@@ -753,7 +753,7 @@ MonoBehaviour:
     - title: Lunch Time
       description: prepare a meal to regain health
       damage: 0
-      heal: 5
+      heal: 25
       shield: 0
       powerup: 1
     - title: Over Worked
