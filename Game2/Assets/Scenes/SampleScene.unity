@@ -485,7 +485,7 @@ MonoBehaviour:
   characters:
   - name: Regular Guy
     sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    health: 20
+    health: 60
     Cards:
     - title: Stapler Throw
       description: Throw your stapler at your opponent.
@@ -511,37 +511,294 @@ MonoBehaviour:
       heal: 0
       shield: 5
       powerup: 1
-    - title: 
+    - title: Pen Poke
+      description: poke your oppent with your pen
+      damage: 6
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: 'Regular  Punch '
+      description: 
+      damage: 3
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Regular Kick
+      description: 
+      damage: 4
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Office Tackle
+      description: Run towards your opponet and spear them
+      damage: 5
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Tie Choke
       description: 
       damage: 0
       heal: 0
       shield: 0
       powerup: 0
-    - title: 
+    - title: Coffee Splash
       description: 
       damage: 0
       heal: 0
       shield: 0
       powerup: 0
-    - title: 
+  - name: Buff Delivery Dude
+    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    health: 75
+    Cards:
+    - title: Resistance Band Whip
+      description: whips your opponent with your resistance band
+      damage: 5
+      heal: 0
+      shield: 0
+      powerup: 1
+    - title: Protein chug
+      description: Take a chug of protein power to bulk up.
+      damage: 0
+      heal: 5
+      shield: 0
+      powerup: 1
+    - title: Extra Set
+      description: Sacrifice your wellbeing for an extra round of working out!
+      damage: 0
+      heal: -5
+      shield: 0
+      powerup: 2
+    - title: Bench Shield
+      description: 'Use a weight bench as  a shield '
+      damage: 0
+      heal: 0
+      shield: 5
+      powerup: 1
+    - title: Dumbbell Punch
       description: 
       damage: 0
       heal: 0
       shield: 0
       powerup: 0
-    - title: 
+    - title: Donkey Kick
       description: 
       damage: 0
       heal: 0
       shield: 0
       powerup: 0
-    - title: 
+    - title: Suplex
       description: 
       damage: 0
       heal: 0
       shield: 0
       powerup: 0
-    - title: 
+    - title: Special Delivery
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Fake Box Decoy
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Powerbomb
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+  - name: Wimpy Surgeon
+    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    health: 50
+    Cards:
+    - title: Needle Throw
+      description: Throw a needle at your opponent.
+      damage: 5
+      heal: 0
+      shield: 0
+      powerup: 1
+    - title: IV rush
+      description: Insert an IV into your arm as a power up
+      damage: 0
+      heal: 5
+      shield: 0
+      powerup: 1
+    - title: Surgery Mode
+      description: Sacrifice your wellbeing for the hospital!
+      damage: 0
+      heal: -5
+      shield: 0
+      powerup: 2
+    - title: 'Arpon shield '
+      description: Put on an arpon for extra protection
+      damage: 0
+      heal: 0
+      shield: 5
+      powerup: 1
+    - title: Scalpel Slash
+      description: Slash your opponent twice with your scalpel
+      damage: 10
+      heal: 0
+      shield: 0
+      powerup: 1
+    - title: Suction Tube
+      description: 
+      damage: 10
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: EKG Shock
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Thermometer Puncture
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Wimpy Punch
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Soft Kick
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+  - name: Hot School Teacher
+    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    health: 55
+    Cards:
+    - title: Grade Book Toss
+      description: Throw your gradebook at your opponent.
+      damage: 7
+      heal: 0
+      shield: 0
+      powerup: 1
+    - title: Teacher's Apple
+      description: Eat a special apple for a power up
+      damage: 0
+      heal: 5
+      shield: 0
+      powerup: 1
+    - title: Detention
+      description: Sacrifice your time  to punish your opponet!
+      damage: 0
+      heal: -5
+      shield: 0
+      powerup: 2
+    - title: Wall of Students
+      description: a group of student come together to form a shield of protection
+      damage: 0
+      heal: 0
+      shield: 5
+      powerup: 1
+    - title: Ruler Smack
+      description: Hit your opponent with your ruler
+      damage: 8
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: ' BackPack Suprise'
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Recess Blitz
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Super Slap
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Lady Kick
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Flirt
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+  - name: Chubby Cafeteria Lady
+    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    health: 80
+    Cards:
+    - title: Tornado Pan attack
+      description: With two pans in both hands spin around and move towards your
+        opponet to attack them
+      damage: 7
+      heal: 0
+      shield: 0
+      powerup: 1
+    - title: Lunch Time
+      description: prepare a meal to regain health
+      damage: 0
+      heal: 5
+      shield: 0
+      powerup: 1
+    - title: Over Worked
+      description: Sacrifice your wellbeing for the school!
+      damage: 0
+      heal: -5
+      shield: 0
+      powerup: 2
+    - title: Lunch Tray Block
+      description: Use a lunch tray as a shield
+      damage: 0
+      heal: 0
+      shield: 5
+      powerup: 1
+    - title: Food Fight
+      description: Throw food at your opponent
+      damage: 7
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Spatula Spank
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Trash Can Throw
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Water Hose Rush
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Meaty Punch
+      description: 
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: 'Kitchen Clothline '
       description: 
       damage: 0
       heal: 0
