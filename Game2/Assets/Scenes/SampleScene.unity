@@ -684,12 +684,6 @@ MonoBehaviour:
       damage: 5
       heal: 0
       shield: 0
-<<<<<<< HEAD
-      powerup: 0
-    - title: 'Kitchen Sink Kick '
-      description: Basic Attack 2-Deals 6 Damage to your opponent
-      damage: 6
-=======
       powerup: 1
     - title: Lunch Time
       description: prepare a meal to regain health
@@ -706,7 +700,6 @@ MonoBehaviour:
     - title: Lunch Tray Block
       description: Use a lunch tray as a shield
       damage: 0
->>>>>>> 7a411eb1e75b795700542dd734c376de74f7232e
       heal: 0
       shield: 0
       powerup: 0
