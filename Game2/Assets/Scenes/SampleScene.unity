@@ -828,6 +828,8 @@ MonoBehaviour:
       powerup: -12
   mainCanvas: {fileID: 1341511749}
   cardObj: {fileID: 894885738468469464, guid: 0fdf7fa705fa4b8428da7471f2de1b89, type: 3}
+  playerPanel: {fileID: 451398044618417243, guid: 0598e3050c35f24488c2554435a2765f, type: 3}
+  enemyPanel: {fileID: 1897022452307484990, guid: 7157b8af38ce28345b45c8b9e7d5ddd8, type: 3}
 --- !u!4 &1786526305
 Transform:
   m_ObjectHideFlags: 0

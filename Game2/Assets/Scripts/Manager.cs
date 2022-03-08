@@ -12,9 +12,17 @@ public class Manager : MonoBehaviour
     //probably refactor this later
     [SerializeField]
     GameObject cardObj;
+
+    [SerializeField]
+    GameObject playerPanel;
+
+    [SerializeField]
+    GameObject enemyPanel;
     
     Character playerCharacter;
     Character computerCharacter;
+
+    
 
     List<GameObject> cards;
     // Start is called before the first frame update
@@ -26,9 +34,13 @@ public class Manager : MonoBehaviour
         }
         //placeholder selector
         playerCharacter = characters[0];
+        computerCharacter = characters[1];
         cards = new List<GameObject>();
 
         createCards(playerCharacter);
+
+        createCharPanel(playerCharacter, playerPanel);
+        createCharPanel(computerCharacter, enemyPanel);
         
 
     }
@@ -77,5 +89,13 @@ public class Manager : MonoBehaviour
         playerCharacter.removeAvailableCard(x);
         cards = new List<GameObject>();
         createCards(playerCharacter);
+    }
+    void createCharPanel(Character character, GameObject panel)
+    {
+        GameObject spawnedPanel = Instantiate(panel);
+        spawnedPanel.transform.SetParent(mainCanvas.transform, false);
+
+        spawnedPanel.transform.GetChild(1).GetComponent<Text>().text = character.Name;
+
     }
 }
