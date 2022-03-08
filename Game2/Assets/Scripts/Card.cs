@@ -23,10 +23,11 @@ public class Card
     public int Damage{ get => damage; private set => damage = value; }
     public int Heal{ get => heal; private set => heal = value; }
     public int Shield{ get => shield; private set => shield = value; }
-
     //i have ideas about powerup, but honestly unsure how exactly it should work. Maybe a multiplier?
     public int Powerup{ get => powerup; private set => powerup = value; }
 
+    //Card Processor
+    ProcessCard processCard = new ProcessCard();
     //initializer 
     public Card(string title, string description, int damage, int heal, int shield, int powerup)
     {

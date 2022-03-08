@@ -12,6 +12,11 @@ public class Manager : MonoBehaviour
     //probably refactor this later
     [SerializeField]
     GameObject cardObj;
+    
+    Character playerCharacter;
+    Character computerCharacter;
+
+    List<GameObject> cards;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +24,11 @@ public class Manager : MonoBehaviour
         {
             ch.initialize();
         }
-        
-        createCards(characters[0]);
+        //placeholder selector
+        playerCharacter = characters[0];
+        cards = new List<GameObject>();
+
+        createCards(playerCharacter);
         
 
     }
@@ -45,13 +53,29 @@ public class Manager : MonoBehaviour
     {
         //this is pretty much all example code
         GameObject spawnedObj = Instantiate(cardObj);
+        cards.Add(spawnedObj);
         spawnedObj.transform.SetParent(mainCanvas.transform);
         RectTransform rectTrans = spawnedObj.GetComponent<RectTransform>();
+
+        Button button = spawnedObj.GetComponent<Button>();
+        button.onClick.AddListener(delegate{clickCard(x);});
 
         rectTrans.anchoredPosition = new Vector2((x - totalCardAmount/2 + ( (totalCardAmount % 2 ==0 ) ? .5f: 0) ) *rectTrans.sizeDelta.x, 0);
         
         spawnedObj.transform.GetChild(0).GetComponent<Text>().text = (chosenChar.AvailableCards[x].Title);
         spawnedObj.transform.GetChild(1).GetComponent<Text>().text = (chosenChar.AvailableCards[x].Description);
         spawnedObj.transform.GetChild(2).GetComponent<Text>().text = ("Attack " + chosenChar.AvailableCards[x].Damage.ToString());
+    }
+    void clickCard(int x)
+    {
+        Debug.Log(x);
+        foreach(GameObject card in cards)
+        {
+            Destroy(card);
+
+        }
+        playerCharacter.removeAvailableCard(x);
+        cards = new List<GameObject>();
+        createCards(playerCharacter);
     }
 }

@@ -9,11 +9,12 @@ public class Character
     [SerializeField]
     private Sprite sprite;
     [SerializeField]
-    private int health;
+    private int health, shield, powerup;
     public string Name { get => name ; private set => name = value; }
     public Sprite CharSprite { get => sprite; private set => sprite = value; }
     public int Health { get => health; private set => health = value; }
-
+    public int Shield {get => shield; private set => shield = value; }
+    public int Powerup {get => powerup; private set => powerup = value;}
     //characters keep track of the overall list of cards, and the available cards.
     //The overall list is all the available cards
     //The available cards lists are the cards left in the hand to play.
@@ -34,11 +35,31 @@ public class Character
         
 
     }
+    public void removeAvailableCard(int x)
+    {
+        availableCards.RemoveAt(x);
+    }
     public void initialize()
     {
         AvailableCards = new List<Card>(Cards);
         
     }
+    public void increaseHealth(int amount)
+    {
+        health += amount;
+
+    }
+    public void setShield(int amount)
+    {
+        shield = amount;
+        
+    }
+    public void setPowerup(int amount)
+    {
+        powerup = amount;
+        
+    }
+    
 
 
 }
