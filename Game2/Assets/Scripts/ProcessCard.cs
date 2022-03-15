@@ -6,7 +6,7 @@ public class ProcessCard
     {
 
         actee.increaseHealth(Math.Min(actee.Shield-card.Damage, 0));
-        actor.increaseHealth(-card.Heal);
+        actor.increaseHealth(card.Heal);
         actor.setShield(card.Shield);
         actor.setPowerup(card.Powerup);
     }

@@ -7,12 +7,18 @@ public class Character
     [SerializeField]
     private string name;
     [SerializeField]
-    private Sprite sprite;
+    private GameObject sprite;
+    
+    
     [SerializeField]
-    private int health, shield, powerup;
+    private int maxHealth, shield, powerup;
+
+    private int health;
+    
     public string Name { get => name ; private set => name = value; }
-    public Sprite CharSprite { get => sprite; private set => sprite = value; }
+    public GameObject CharSprite { get => sprite; private set => sprite = value; }
     public int Health { get => health; private set => health = value; }
+    public int MaxHealth { get => maxHealth; private set=> health = value; }
     public int Shield {get => shield; private set => shield = value; }
     public int Powerup {get => powerup; private set => powerup = value;}
     //characters keep track of the overall list of cards, and the available cards.
@@ -26,9 +32,11 @@ public class Character
     public List<Card> AvailableCards { get => availableCards; private set => availableCards = value; }
     
     
-    public Character(string name, Sprite sprite, Card[] cards)
+    public Character(string name, int maxhealth, GameObject sprite, Card[] cards)
     {
         Name = name;
+        maxHealth = maxhealth;
+        health = maxHealth;
         CharSprite = sprite;
         Cards = cards;
         AvailableCards = new List<Card>(cards);
@@ -42,11 +50,13 @@ public class Character
     public void initialize()
     {
         AvailableCards = new List<Card>(Cards);
+        health = maxHealth;
         
     }
     public void increaseHealth(int amount)
     {
         health += amount;
+        if (health > maxHealth) health = maxHealth;
 
     }
     public void setShield(int amount)
