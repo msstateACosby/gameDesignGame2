@@ -484,8 +484,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - name: Regular Guy
-    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    health: 65
+    sprite: {fileID: 1692708348175726899, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
+    maxHealth: 65
     shield: 0
     powerup: 0
     Cards:
@@ -550,8 +550,8 @@ MonoBehaviour:
       shield: 0
       powerup: -6
   - name: Buff Delivery Dude
-    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    health: 75
+    sprite: {fileID: 3186013996498777153, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
+    maxHealth: 75
     shield: 0
     powerup: 0
     Cards:
@@ -616,8 +616,8 @@ MonoBehaviour:
       shield: 0
       powerup: -15
   - name: Wimpy Surgeon
-    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    health: 50
+    sprite: {fileID: 8554165682634775586, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
+    maxHealth: 50
     shield: 0
     powerup: 0
     Cards:
@@ -681,88 +681,9 @@ MonoBehaviour:
       heal: 0
       shield: 0
       powerup: -13
-  - name: Chubby Cafeteria Lady
-    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    health: 80
-    shield: 0
-    powerup: 0
-    Cards:
-    - title: Meatball Punch
-      description: Basic Attack 1-Deals 5 Damage to your opponent
-      damage: 5
-      heal: 0
-      shield: 0
-      powerup: 1
-    - title: Lunch Time
-      description: prepare a meal to regain health
-      damage: 0
-      heal: 25
-      shield: 0
-      powerup: 1
-    - title: Over Worked
-      description: Sacrifice your wellbeing for the school!
-      damage: 0
-      heal: -5
-      shield: 0
-      powerup: 2
-    - title: Lunch Tray Block
-      description: Use a lunch tray as a shield
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Trash Can Belly Toss
-      description: Grapple Attack-Deal 10 Damage to your opponent
-      damage: 10
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Food Fight
-      description: Range attack-Deal 8 Damage to your opponent
-      damage: 8
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Spatula Spank
-      description: Special Move- Deal 13 Damage to your opponent
-      damage: 13
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Water Hose Rush
-      description: 'Super Move- Deal 18 Damage to your opponent '
-      damage: 18
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Tornado Pan attack
-      description: Finishing Move- Deal 28 Damage to your opponenFinishing Move-
-        Deal 20 Damage to your opponent
-      damage: 20
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Lunch Tray Block
-      description: Block 10 pt of incoming damage
-      damage: 0
-      heal: 10
-      shield: 0
-      powerup: 0
-    - title: Quick Snack
-      description: Heal your character for 10 HP
-      damage: 0
-      heal: 0
-      shield: 10
-      powerup: 0
-    - title: Lunch Time
-      description: Apply -8 in Negative effects to your o
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: -8
   - name: Hot School Teacher
-    sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-    health: 60
+    sprite: {fileID: 4002414740671074221, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
+    maxHealth: 60
     shield: 0
     powerup: 0
     Cards:
@@ -826,10 +747,91 @@ MonoBehaviour:
       heal: 0
       shield: 0
       powerup: -12
+  - name: Chubby Cafeteria Lady
+    sprite: {fileID: 1100479544166156092, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
+    maxHealth: 80
+    shield: 0
+    powerup: 0
+    Cards:
+    - title: Meatball Punch
+      description: Basic Attack 1-Deals 5 Damage to your opponent
+      damage: 5
+      heal: 0
+      shield: 0
+      powerup: 1
+    - title: Lunch Time
+      description: prepare a meal to regain health
+      damage: 0
+      heal: 25
+      shield: 0
+      powerup: 1
+    - title: Over Worked
+      description: Sacrifice your wellbeing for the school!
+      damage: 0
+      heal: -5
+      shield: 0
+      powerup: 2
+    - title: Lunch Tray Block
+      description: Use a lunch tray as a shield
+      damage: 0
+      heal: 0
+      shield: 10
+      powerup: 0
+    - title: Trash Can Belly Toss
+      description: Grapple Attack-Deal 10 Damage to your opponent
+      damage: 10
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Food Fight
+      description: Range attack-Deal 8 Damage to your opponent
+      damage: 8
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Spatula Spank
+      description: Special Move- Deal 13 Damage to your opponent
+      damage: 13
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Water Hose Rush
+      description: 'Super Move- Deal 18 Damage to your opponent '
+      damage: 18
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Tornado Pan attack
+      description: Finishing Move- Deal 28 Damage to your opponenFinishing Move-
+        Deal 20 Damage to your opponent
+      damage: 20
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Lunch Tray Block
+      description: Block 10 pt of incoming damage
+      damage: 0
+      heal: 10
+      shield: 0
+      powerup: 0
+    - title: Quick Snack
+      description: Heal your character for 10 HP
+      damage: 0
+      heal: 0
+      shield: 10
+      powerup: 0
+    - title: Lunch Time
+      description: Apply -8 in Negative effects to your o
+      damage: 0
+      heal: 0
+      shield: 0
+      powerup: -8
   mainCanvas: {fileID: 1341511749}
   cardObj: {fileID: 894885738468469464, guid: 0fdf7fa705fa4b8428da7471f2de1b89, type: 3}
   playerPanel: {fileID: 451398044618417243, guid: 0598e3050c35f24488c2554435a2765f, type: 3}
-  enemyPanel: {fileID: 1897022452307484990, guid: 7157b8af38ce28345b45c8b9e7d5ddd8, type: 3}
+  computerPanel: {fileID: 1897022452307484990, guid: 7157b8af38ce28345b45c8b9e7d5ddd8, type: 3}
+  playerActions: {fileID: 1130628155763006065, guid: bb88683b196d0cc4bb7093da063654f1, type: 3}
+  computerActions: {fileID: 808619718433189434, guid: 30cd41bd6456a334294d6d7cb41a50e1, type: 3}
 --- !u!4 &1786526305
 Transform:
   m_ObjectHideFlags: 0
