@@ -549,6 +549,24 @@ MonoBehaviour:
       heal: 0
       shield: 0
       powerup: -6
+    - title: Snack Break
+      description: Heals for 15 HP
+      damage: 0
+      heal: 15
+      shield: 0
+      powerup: 0
+    - title: Promotion
+      description: Heals for 45 HP and gain 50 shield
+      damage: 0
+      heal: 45
+      shield: 50
+      powerup: 0
+    - title: Write Up
+      description: Inflict 25 damage
+      damage: 25
+      heal: 0
+      shield: 0
+      powerup: 0
   - name: Buff Delivery Dude
     sprite: {fileID: 3186013996498777153, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
     maxHealth: 75
@@ -615,6 +633,12 @@ MonoBehaviour:
       heal: 0
       shield: 0
       powerup: -15
+    - title: Adrenaline Junkie
+      description: heals for 10 HP  and gain 20 power
+      damage: 0
+      heal: 10
+      shield: 0
+      powerup: 20
   - name: Wimpy Surgeon
     sprite: {fileID: 8554165682634775586, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
     maxHealth: 50
@@ -681,6 +705,12 @@ MonoBehaviour:
       heal: 0
       shield: 0
       powerup: -13
+    - title: Posion Cut
+      description: Inflict 30 Damage and decrease 5 power
+      damage: 30
+      heal: 0
+      shield: 0
+      powerup: -5
   - name: Hot School Teacher
     sprite: {fileID: 4002414740671074221, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
     maxHealth: 60
@@ -747,6 +777,24 @@ MonoBehaviour:
       heal: 0
       shield: 0
       powerup: -12
+    - title: Mountain of homework
+      description: Inflict 10 damage and decrease 15 power
+      damage: 10
+      heal: 0
+      shield: 0
+      powerup: 15
+    - title: Triple Fs
+      description: Inflict 20 damage
+      damage: 20
+      heal: 0
+      shield: 0
+      powerup: 0
+    - title: Morning Coffee
+      description: Heals for 10 HP
+      damage: 0
+      heal: 10
+      shield: 0
+      powerup: 0
   - name: Chubby Cafeteria Lady
     sprite: {fileID: 1100479544166156092, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
     maxHealth: 80
