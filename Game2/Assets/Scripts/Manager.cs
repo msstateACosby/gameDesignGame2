@@ -39,6 +39,8 @@ public class Manager : MonoBehaviour
 
     BasicAI computerAI;
 
+   
+
     
     // Start is called before the first frame update
     void Start()
@@ -62,6 +64,7 @@ public class Manager : MonoBehaviour
 
         createCharPanels();
         
+       
 
     }
 
@@ -78,6 +81,7 @@ public class Manager : MonoBehaviour
             }
         }
         
+       
     }
 
     void createCharacters ()
