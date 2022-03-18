@@ -39,6 +39,9 @@ public class Manager : MonoBehaviour
 
     BasicAI computerAI;
 
+    [SerializeField]
+    int testCharSelection = 0;
+
    
 
     
@@ -49,9 +52,20 @@ public class Manager : MonoBehaviour
         {
             ch.initialize();
         }
-        //placeholder selector
-        playerCharacter = characters[0];
-        computerCharacter = characters[1];
+        //placeholder selector if testing the battle scene.
+        if (ScenePassInfo.charSelected == -1) playerCharacter = characters[testCharSelection];
+        //otherwise choose what the player chose in the previous scene.
+        else playerCharacter = characters[ScenePassInfo.charSelected];
+        
+        //clever way to exclude the player's chosen character from the range.
+        int comCharId = Random.Range(0,  4);
+        if (comCharId >= ScenePassInfo.charSelected)
+        {
+            Debug.Log(comCharId);
+            comCharId += 1;
+        }
+        
+        computerCharacter = characters[comCharId];
 
         defaultProcessCard = new ProcessCard();
         computerAI = new BasicAI();
