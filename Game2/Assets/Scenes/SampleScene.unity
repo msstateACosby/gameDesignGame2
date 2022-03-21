@@ -205,87 +205,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &222538614
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3186013994557859846, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: BDD right arm
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034471, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: BDD left leg
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996022353083, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: BDD left arm
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996026576453, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: BDD Head
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996074366919, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: BDD torso
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996189932745, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: BDD right leg
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777153, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: Buff Delivery Dude
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
 --- !u!1 &459497241
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +639,34 @@ PrefabInstance:
       propertyPath: mainCanvas
       value: 
       objectReference: {fileID: 1341511749}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[0].animationName
+      value: Dumbbell punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[3].animationName
+      value: Resistance Band Whip
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[4].animationName
+      value: Fake Box Decoy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[6].animationName
+      value: Special Delivery
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[7].animationName
+      value: Bench Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[8].animationName
+      value: Protein chug
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[1].Cards.Array.data[9].animationName
+      value: Adrenaline Junkie
+      objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[4].animationName
       value: Wimpy Punch
