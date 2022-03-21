@@ -33,9 +33,7 @@ public class Manager : MonoBehaviour
     ProcessCard defaultProcessCard;
 
     [SerializeField]
-    Text playerActions, computerActions;
-
-    Text neutralActions;
+    Text playerActions, computerActions, neutralActions;
 
 
     bool isComptuterTurn;
