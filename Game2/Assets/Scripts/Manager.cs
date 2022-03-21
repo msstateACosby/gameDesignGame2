@@ -18,7 +18,7 @@ public class Manager : MonoBehaviour
 
     [SerializeField]
     GameObject computerPanel;
-    GameObject playerInstantiantedPanel, computerInstantiatedPanel;
+    GameObject playerInstantiatedPanel, computerInstantiatedPanel;
     
     Character playerCharacter;
     Character computerCharacter;
@@ -190,6 +190,8 @@ public class Manager : MonoBehaviour
         createCards(playerCharacter);
 
         displayActionText(playerActions, "You Played Card: " + cardplayed.Title);
+
+        playerGameObj.GetComponent<Animator>().Play(cardplayed.AnimationName);
         isComptuterTurn = true;
         timer = Random.Range(2.0f, 4.0f);
     }
@@ -211,9 +213,14 @@ public class Manager : MonoBehaviour
         
     
         
-        playerInstantiantedPanel.transform.GetChild(0).GetComponent<Slider>().value = playerCharacter.Health;
-        
+        playerInstantiatedPanel.transform.GetChild(0).GetComponent<Slider>().value = playerCharacter.Health;
+        playerInstantiatedPanel.transform.GetChild(2).GetComponent<Text>().text = playerCharacter.Health.ToString() + "/" + playerCharacter.MaxHealth.ToString();
+        playerInstantiatedPanel.transform.GetChild(3).GetComponent<Text>().text = "Shield: " + playerCharacter.Shield.ToString();
+        playerInstantiatedPanel.transform.GetChild(4).GetComponent<Text>().text = "Powerup: " + playerCharacter.Powerup.ToString();
+
         computerInstantiatedPanel.transform.GetChild(0).GetComponent<Slider>().value = (float)computerCharacter.Health;
+        computerInstantiatedPanel.transform.GetChild(2).GetComponent<Text>().text = "Shield: " + computerCharacter.Shield.ToString();
+        computerInstantiatedPanel.transform.GetChild(3).GetComponent<Text>().text = "Powerup: " + computerCharacter.Powerup.ToString();
         
     }
     void createCharPanels()
@@ -225,7 +232,7 @@ public class Manager : MonoBehaviour
         Slider charSlider = spawnedPanel.transform.GetChild(0).GetComponent<Slider>();
         charSlider.maxValue = playerCharacter.MaxHealth;
         
-        playerInstantiantedPanel = spawnedPanel;
+        playerInstantiatedPanel = spawnedPanel;
         
 
         spawnedPanel = Instantiate(computerPanel);

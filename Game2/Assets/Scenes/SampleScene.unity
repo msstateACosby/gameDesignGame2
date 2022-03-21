@@ -123,320 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &5570075
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1692708348175726899, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_Name
-      value: Regular Guy
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100767052465421119, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100767052465421119, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100767052465421119, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100767052465421119, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100767052465421119, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4985745086905975135, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5338059486513543925, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5540399143845463070, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655587564024904950, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7769039904616071149, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8125127519123177095, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592370163447384187, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592370163447384187, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.2000003
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592370163447384187, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592370163447384187, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8592370163447384187, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
---- !u!1 &5570076 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1692708348175726899, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-  m_PrefabInstance: {fileID: 5570075}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &5570077
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5570076}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 794ce9a1ad36eb842819d4dfc7f6a3b2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1001 &23586518
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1100479544166156092, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_Name
-      value: Fat Lunch Lady
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806576767905991059, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806576767905991059, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806576767905991059, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806576767905991059, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4806576767905991059, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.19
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
---- !u!1 &23586519 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1100479544166156092, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-  m_PrefabInstance: {fileID: 23586518}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &23586520
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 23586519}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4a289d1123549f347959f3aea873e2cf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &183485144
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,207 +205,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &453039869
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 60328924920421642, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.4100001
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2449324515135831453, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691694530818818538, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106143942072396256, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6989393680506131266, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.9599998
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7319372116699643118, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 8554165682634775586, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_Name
-      value: Wimpy Doctor
-      objectReference: {fileID: 0}
-    - target: {fileID: 8554165682634775586, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
---- !u!1 &453039870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8554165682634775586, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-  m_PrefabInstance: {fileID: 453039869}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &453039871
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453039870}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 177d1a9b393ca0247a9331a83ffaf096, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &459497241
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,159 +415,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &537881790
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3186013994557859847, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034464, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034464, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034464, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034464, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034464, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013995171034465, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996022353076, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996026576454, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.182
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996026576454, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.873
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996074366912, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996074366912, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996074366913, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996189932746, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996189932746, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996189932746, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996189932746, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996189932746, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777153, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_Name
-      value: Buff Delivery Guy
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3186013996498777154, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
---- !u!1 &537881791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3186013996498777153, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-  m_PrefabInstance: {fileID: 537881790}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &537881792
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537881791}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1b1bc812c6a56b54781f15b3c418bf48, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1080582765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,78 +619,91 @@ MonoBehaviour:
     Cards:
     - title: 'Regular  Punch '
       description: Basic Attack 1-Deals 4 Damage to your opponent
+      animationName: Regular Punch
       damage: 4
       heal: 0
       shield: 0
       powerup: 0
     - title: Regular Kick
       description: Basic Attack 2- Deals 4 Damage to your opponent
+      animationName: Regular Kick
       damage: 4
       heal: 0
       shield: 0
       powerup: 0
     - title: Office Tackle
       description: Grapple Attack-Deal 10 Damage to your opponent
+      animationName: Office Tackle
       damage: 10
       heal: 0
       shield: 0
       powerup: 0
     - title: Stapler Throw
       description: Range attack-Deal 8 Damage to your opponent
+      animationName: 
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Coffee Splash
       description: Special Move- Deal 14 Damage to your opponent
+      animationName: 
       damage: 14
       heal: 0
       shield: 0
       powerup: 0
     - title: Pen Poke
       description: 'Super Move- Deal 21 Damage to your opponent '
+      animationName: 
       damage: 21
       heal: 0
       shield: 0
       powerup: 0
     - title: Tie Choke
       description: Finishing Move- Deal 28 Damage to your opponent
+      animationName: 
       damage: 28
       heal: 0
       shield: 0
       powerup: 0
     - title: Cubicle Hide
       description: Block 25 pt of incoming damage
+      animationName: 
       damage: 0
       heal: 25
       shield: 0
       powerup: 0
     - title: Water Break
       description: Heal your character for 25 HP
+      animationName: 
       damage: 0
       heal: 0
       shield: 25
       powerup: 0
     - title: Working Overtime
       description: Apply -6 in Negative effects to your opponent for 2 turns
+      animationName: 
       damage: 0
       heal: 0
       shield: 0
       powerup: -6
     - title: Snack Break
       description: Heals for 15 HP
+      animationName: 
       damage: 0
       heal: 15
       shield: 0
       powerup: 0
     - title: Promotion
       description: Heals for 45 HP and gain 50 shield
+      animationName: Promotion
       damage: 0
       heal: 45
       shield: 50
       powerup: 0
     - title: Write Up
       description: Inflict 25 damage
+      animationName: 
       damage: 25
       heal: 0
       shield: 0
@@ -1371,66 +716,77 @@ MonoBehaviour:
     Cards:
     - title: Dumbbell Punch
       description: Basic Attack 1-Deals 6 Damage to your opponent
+      animationName: 
       damage: 6
       heal: 0
       shield: 0
       powerup: 0
     - title: Donkey Kick
       description: Basic Attack 2-Deals 5 Damage to your opponent
+      animationName: Donkey Kick
       damage: 5
       heal: 0
       shield: 0
       powerup: 0
     - title: Suplex
       description: Grapple Attack-Deal 10 Damage to your opponent
+      animationName: Suplex
       damage: 10
       heal: 0
       shield: 0
       powerup: 0
     - title: Resistance Band Whip
       description: Range attack-Deal 8 Damage to your opponent
+      animationName: 
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Fake Box Decoy
       description: Special Move- Deal 15 Damage to your opponent
+      animationName: 
       damage: 15
       heal: 0
       shield: 0
       powerup: 0
     - title: Powerbomb
       description: 'Super Move- Deal 20 Damage to your opponent '
+      animationName: Powerbomb
       damage: 20
       heal: 0
       shield: 0
       powerup: 0
     - title: Special Delivery
       description: Finishing Move- Deal 25 Damage to your opponent
+      animationName: 
       damage: 25
       heal: 0
       shield: 0
       powerup: 0
     - title: Bench Shield
       description: Block 15 pt of incoming damage
+      animationName: 
       damage: 0
       heal: 15
       shield: 0
       powerup: 0
     - title: Protein chug
       description: Heal your character for 15 HP
+      animationName: 
       damage: 0
       heal: 0
       shield: 15
       powerup: 0
     - title: Muscle Failure
       description: Apply -15 in Negative effects to your o
+      animationName: 
       damage: 0
       heal: 0
       shield: 0
       powerup: -15
     - title: Adrenaline Junkie
       description: heals for 10 HP  and gain 20 power
+      animationName: 
       damage: 0
       heal: 10
       shield: 0
@@ -1443,66 +799,77 @@ MonoBehaviour:
     Cards:
     - title: Wimpy Punch
       description: Basic Attack 1-Deals 2 Damage to your opponent
+      animationName: Wimpy Punch
       damage: 2
       heal: 0
       shield: 0
       powerup: 0
     - title: Soft Kick
       description: Basic Attack 2-Deals 3 Damage to your opponent
+      animationName: Soft Kick
       damage: 3
       heal: 0
       shield: 0
       powerup: 0
     - title: Suction Slam
       description: Grapple Attack-Deal 10 Damage to your opponent
+      animationName: Suction Slam
       damage: 10
       heal: 0
       shield: 0
       powerup: 0
     - title: Needle Throw
       description: Range attack-Deal 8 Damage to your opponent
+      animationName: Needle Throw
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Thermometer Puncture
       description: Special Move- Deal 18 Damage to your opponent
+      animationName: 
       damage: 18
       heal: 0
       shield: 0
       powerup: 0
     - title: EKG Shock
       description: 'Super Move- Deal 25 Damage to your opponent '
+      animationName: 
       damage: 25
       heal: 0
       shield: 0
       powerup: 0
     - title: Scalpel Slash
       description: Finishing Move- Deal 40 Damage to your opponent
+      animationName: 
       damage: 40
       heal: 0
       shield: 0
       powerup: 1
     - title: 'Arpon shield '
       description: Block 20 pt of incoming damage
+      animationName: 
       damage: 0
       heal: 20
       shield: 0
       powerup: 0
     - title: IV rush
       description: Heal your character for 40 HP
+      animationName: 
       damage: 0
       heal: 0
       shield: 40
       powerup: 0
     - title: Surgery Mode
       description: Apply -13 in Negative effects to your o
+      animationName: 
       damage: 0
       heal: 0
       shield: 0
       powerup: -13
     - title: Posion Cut
       description: Inflict 30 Damage and decrease 5 power
+      animationName: 
       damage: 30
       heal: 0
       shield: 0
@@ -1515,78 +882,91 @@ MonoBehaviour:
     Cards:
     - title: Super Slap
       description: Basic Attack 1-Deals 3 Damage to your opponent
+      animationName: Super Slap
       damage: 3
       heal: 0
       shield: 0
       powerup: 0
     - title: Lady Kick
       description: Basic Attack 2-Deals 2 Damage to your opponent
+      animationName: Lady Kick
       damage: 2
       heal: 0
       shield: 0
       powerup: 0
     - title: Desk DDT
       description: Grapple Attack-Deal 10 Damage to your opponent
+      animationName: 
       damage: 10
       heal: 0
       shield: 0
       powerup: 0
     - title: Grade Book Toss
       description: Range attack-Deal 8 Damage to your opponent
+      animationName: 
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Ruler Hit
       description: Special Move- Deal 16 Damage to your opponent
+      animationName: 
       damage: 16
       heal: 0
       shield: 0
       powerup: 0
     - title: ' BackPack Suprise'
       description: 'Super Move- Deal 22 Damage to your opponent '
+      animationName: 
       damage: 22
       heal: 0
       shield: 0
       powerup: 0
     - title: Recess Blitz
       description: Finishing Move- Deal 32 Damage to your opponent
+      animationName: Recess Blitz
       damage: 32
       heal: 0
       shield: 0
       powerup: 0
     - title: Wall of Students
       description: Block 30 pt of incoming damagBlock 30 pt of incoming damage
+      animationName: 
       damage: 0
       heal: 30
       shield: 0
       powerup: 0
     - title: Teacher's Apple
       description: Heal your character for 30 HP
+      animationName: 
       damage: 0
       heal: 0
       shield: 30
       powerup: 0
     - title: Detention
       description: Apply -12 in Negative effects to your o
+      animationName: 
       damage: 0
       heal: 0
       shield: 0
       powerup: -12
     - title: Mountain of homework
       description: Inflict 10 damage and decrease 15 power
+      animationName: 
       damage: 10
       heal: 0
       shield: 0
       powerup: 15
     - title: Triple Fs
       description: Inflict 20 damage
+      animationName: 
       damage: 20
       heal: 0
       shield: 0
       powerup: 0
     - title: Morning Coffee
       description: Heals for 10 HP
+      animationName: 
       damage: 0
       heal: 10
       shield: 0
@@ -1599,48 +979,56 @@ MonoBehaviour:
     Cards:
     - title: Meatball Punch
       description: Basic Attack 1-Deals 5 Damage to your opponent
+      animationName: 
       damage: 5
       heal: 0
       shield: 0
       powerup: 1
     - title: Lunch Time
       description: prepare a meal to regain health
+      animationName: 
       damage: 0
       heal: 25
       shield: 0
       powerup: 1
     - title: Over Worked
       description: Sacrifice your wellbeing for the school!
+      animationName: 
       damage: 0
       heal: -5
       shield: 0
       powerup: 2
     - title: Lunch Tray Block
       description: Use a lunch tray as a shield
+      animationName: 
       damage: 0
       heal: 0
       shield: 10
       powerup: 0
     - title: Trash Can Belly Toss
       description: Grapple Attack-Deal 10 Damage to your opponent
+      animationName: 
       damage: 10
       heal: 0
       shield: 0
       powerup: 0
     - title: Food Fight
       description: Range attack-Deal 8 Damage to your opponent
+      animationName: 
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Spatula Spank
       description: Special Move- Deal 13 Damage to your opponent
+      animationName: 
       damage: 13
       heal: 0
       shield: 0
       powerup: 0
     - title: Water Hose Rush
       description: 'Super Move- Deal 18 Damage to your opponent '
+      animationName: 
       damage: 18
       heal: 0
       shield: 0
@@ -1648,24 +1036,28 @@ MonoBehaviour:
     - title: Tornado Pan attack
       description: Finishing Move- Deal 28 Damage to your opponenFinishing Move-
         Deal 20 Damage to your opponent
+      animationName: 
       damage: 20
       heal: 0
       shield: 0
       powerup: 0
     - title: Lunch Tray Block
       description: Block 10 pt of incoming damage
+      animationName: 
       damage: 0
       heal: 10
       shield: 0
       powerup: 0
     - title: Quick Snack
       description: Heal your character for 10 HP
+      animationName: 
       damage: 0
       heal: 0
       shield: 10
       powerup: 0
     - title: Lunch Time
       description: Apply -8 in Negative effects to your o
+      animationName: 
       damage: 0
       heal: 0
       shield: 0
@@ -1702,163 +1094,6 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 318a385e8cadc2a42b6a8372760125dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1001 &2056732641
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 335911714445754483, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 335911714445754483, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 335911714445754483, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 335911714445754483, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 335911714445754483, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2209397753100960560, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2209397753100960560, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 2209397753100960560, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2209397753100960560, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2209397753100960560, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002414740671074221, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_Name
-      value: Hot Teacher
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.73136723
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4408479555609037347, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8328829258166468883, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8525327168383424239, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8525327168383424239, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769242398696438736, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769242398696438736, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769242398696438736, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769242398696438736, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769242398696438736, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
---- !u!1 &2056732642 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4002414740671074221, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-  m_PrefabInstance: {fileID: 2056732641}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &2056732643
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2056732642}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 862b95970e210724da004408bc9ffc17, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
