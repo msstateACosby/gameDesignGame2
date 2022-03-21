@@ -46,6 +46,10 @@ public class Character
     public void removeAvailableCard(int x)
     {
         availableCards.RemoveAt(x);
+        if (availableCards.Count == 0)
+        {
+            availableCards = new List<Card>(Cards);
+        }
     }
     public void initialize()
     {
