@@ -13,8 +13,11 @@ public class Card
     //Fluff info about cards
     [SerializeField]
     private string title, description;
+    [SerializeField]
+    private string animationName = "Idle";
     public string Title { get => title; private set => title = value; }
     public string Description { get => description; private set => description = value; }
+    public string AnimationName {get => animationName; private set => description = value;}
     //values for card effects
     //probably add complexity later
     //right now it works

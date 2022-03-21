@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Manager : MonoBehaviour
 {
     
@@ -18,7 +19,7 @@ public class Manager : MonoBehaviour
 
     [SerializeField]
     GameObject computerPanel;
-    GameObject playerInstantiantedPanel, computerInstantiatedPanel;
+    GameObject playerInstantiatedPanel, computerInstantiatedPanel;
     
     Character playerCharacter;
     Character computerCharacter;
@@ -36,6 +37,8 @@ public class Manager : MonoBehaviour
 
     bool isComptuterTurn;
     float timer;
+    float endGameTimer;
+    bool endedGame = false;
 
     BasicAI computerAI;
 
@@ -94,6 +97,15 @@ public class Manager : MonoBehaviour
                 computerPlayCard();
             }
         }
+        if (endedGame)
+        {
+            endGameTimer -= Time.deltaTime;
+            if (endGameTimer < 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
+        }
+
         
        
     }
@@ -190,6 +202,8 @@ public class Manager : MonoBehaviour
         createCards(playerCharacter);
 
         displayActionText(playerActions, "You Played Card: " + cardplayed.Title);
+
+        playerGameObj.GetComponent<Animator>().Play(cardplayed.AnimationName);
         isComptuterTurn = true;
         timer = Random.Range(2.0f, 4.0f);
     }
@@ -203,6 +217,19 @@ public class Manager : MonoBehaviour
 
 
         player.removeAvailableCard(x);
+
+        if (playerCharacter.Health == 0)
+        {
+            endedGame = true;
+            endGameTimer = 1f;
+            ScenePassInfo.won = 0;
+        }
+        else if (computerCharacter.Health == 0)
+        {
+            endedGame = true;
+            endGameTimer = 1f;
+            ScenePassInfo.won = 1;
+        }
         return cardPlayed;
     }
     void updatePanelGraphics()
@@ -211,9 +238,14 @@ public class Manager : MonoBehaviour
         
     
         
-        playerInstantiantedPanel.transform.GetChild(0).GetComponent<Slider>().value = playerCharacter.Health;
-        
+        playerInstantiatedPanel.transform.GetChild(0).GetComponent<Slider>().value = playerCharacter.Health;
+        playerInstantiatedPanel.transform.GetChild(2).GetComponent<Text>().text = playerCharacter.Health.ToString() + "/" + playerCharacter.MaxHealth.ToString();
+        playerInstantiatedPanel.transform.GetChild(3).GetComponent<Text>().text = "Shield: " + playerCharacter.Shield.ToString();
+        playerInstantiatedPanel.transform.GetChild(4).GetComponent<Text>().text = "Powerup: " + playerCharacter.Powerup.ToString();
+
         computerInstantiatedPanel.transform.GetChild(0).GetComponent<Slider>().value = (float)computerCharacter.Health;
+        computerInstantiatedPanel.transform.GetChild(2).GetComponent<Text>().text = "Shield: " + computerCharacter.Shield.ToString();
+        computerInstantiatedPanel.transform.GetChild(3).GetComponent<Text>().text = "Powerup: " + computerCharacter.Powerup.ToString();
         
     }
     void createCharPanels()
@@ -225,7 +257,7 @@ public class Manager : MonoBehaviour
         Slider charSlider = spawnedPanel.transform.GetChild(0).GetComponent<Slider>();
         charSlider.maxValue = playerCharacter.MaxHealth;
         
-        playerInstantiantedPanel = spawnedPanel;
+        playerInstantiatedPanel = spawnedPanel;
         
 
         spawnedPanel = Instantiate(computerPanel);
