@@ -26,6 +26,7 @@ public class Manager : MonoBehaviour
 
     GameObject playerGameObj;
     GameObject computerGameObj;
+    
 
     List<GameObject> cards;
 
@@ -33,6 +34,8 @@ public class Manager : MonoBehaviour
 
     [SerializeField]
     Text playerActions, computerActions;
+
+    Text neutralActions;
 
 
     bool isComptuterTurn;
@@ -47,6 +50,7 @@ public class Manager : MonoBehaviour
 
     [SerializeField]
     int testCharSelection = 0;
+    GameObject currentTextObj = null;
 
    
 
@@ -193,7 +197,9 @@ public class Manager : MonoBehaviour
     }
     void displayActionText(Text textObj, string message)
     {
+        if (currentTextObj != null) Destroy(currentTextObj);
         Text spawnedObj = Instantiate(textObj);
+        currentTextObj = spawnedObj.gameObject;
         spawnedObj.transform.SetParent(mainCanvas.transform, false);
         spawnedObj.text = message;
         Destroy(spawnedObj.gameObject, 1);
@@ -203,6 +209,7 @@ public class Manager : MonoBehaviour
         if (isComptuterTurn || waitForComputerToFinishPlaying)
         {
             //maybe display a message that it is not your turn.
+            displayActionText(neutralActions, "Wait for your turn!");
             return;
         }
         foreach(GameObject card in cards)
