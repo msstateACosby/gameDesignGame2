@@ -640,8 +640,52 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1341511749}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
-      propertyPath: neutralActions
-      value: 
-      objectReference: {fileID: 925287452844311343, guid: d30f543e60a27c849b0f45a3f5f1c5e7, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[4].animationName
+      value: Wimpy Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[5].animationName
+      value: Wimpy Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[7].animationName
+      value: Wimpy Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[8].animationName
+      value: Wimpy Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[9].animationName
+      value: Wimpy Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[2].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[3].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[4].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[5].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[7].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[8].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[3].Cards.Array.data[9].animationName
+      value: Super Slap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}

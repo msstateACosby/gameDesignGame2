@@ -74,42 +74,42 @@ MonoBehaviour:
       powerup: 0
     - title: Stapler Throw
       description: 'Range attack-Deals 8 Damage '
-      animationName: 
+      animationName: Regular Punch
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Coffee Splash
       description: Special Move- Deals 14 Damage
-      animationName: 
+      animationName: Regular Punch
       damage: 14
       heal: 0
       shield: 0
       powerup: 0
     - title: Pen Poke
       description: 'Super Move- Deals 21 Damage '
-      animationName: 
+      animationName: Regular Punch
       damage: 21
       heal: 0
       shield: 0
       powerup: 0
     - title: Tie Choke
       description: Finishing Move- Deals 28 Damage
-      animationName: 
+      animationName: Regular Punch
       damage: 28
       heal: 0
       shield: 0
       powerup: 0
     - title: Cubicle Hide
       description: Shield- Blocks 25  of incoming damage
-      animationName: 
+      animationName: Regular Punch
       damage: 0
       heal: 0
       shield: 25
       powerup: 0
     - title: Water Break
       description: Heal- Recovers 25 hp
-      animationName: 
+      animationName: Regular Punch
       damage: 0
       heal: 25
       shield: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
     Cards:
     - title: Dumbbell Punch
       description: Basic Attack 1-Deals 6 Damage
-      animationName: 
+      animationName: Suplex
       damage: 6
       heal: 0
       shield: 0
@@ -150,14 +150,14 @@ MonoBehaviour:
       powerup: 0
     - title: Resistance Band Whip
       description: 'Range attack-Deals 8 Damage '
-      animationName: 
+      animationName: Suplex
       damage: 8
       heal: 0
       shield: 0
       powerup: 0
     - title: Fake Box Decoy
       description: Special Move- Deals 15 Damage
-      animationName: 
+      animationName: Suplex
       damage: 15
       heal: 0
       shield: 0
@@ -171,28 +171,28 @@ MonoBehaviour:
       powerup: 0
     - title: Special Delivery
       description: Finishing Move- Deals 25 Damage
-      animationName: 
+      animationName: Suplex
       damage: 25
       heal: 0
       shield: 0
       powerup: 0
     - title: Bench Shield
       description: Shield- Blocks 15 incoming Damage
-      animationName: 
+      animationName: Suplex
       damage: 0
       heal: 0
       shield: 15
       powerup: 0
     - title: Protein chug
       description: Hea- Recovers 15 HP
-      animationName: 
+      animationName: Suplex
       damage: 0
       heal: 15
       shield: 0
       powerup: 0
     - title: Adrenaline Junkie
       description: PowerUp- adds 20 damage to next attack
-      animationName: 
+      animationName: Suplex
       damage: 0
       heal: 0
       shield: 0
@@ -431,6 +431,7 @@ MonoBehaviour:
   computerPanel: {fileID: 1897022452307484990, guid: 7157b8af38ce28345b45c8b9e7d5ddd8, type: 3}
   playerActions: {fileID: 1130628155763006065, guid: bb88683b196d0cc4bb7093da063654f1, type: 3}
   computerActions: {fileID: 808619718433189434, guid: 30cd41bd6456a334294d6d7cb41a50e1, type: 3}
+  neutralActions: {fileID: 925287452844311343, guid: d30f543e60a27c849b0f45a3f5f1c5e7, type: 3}
   testCharSelection: 0
 --- !u!95 &5376725629801372139
 Animator:
