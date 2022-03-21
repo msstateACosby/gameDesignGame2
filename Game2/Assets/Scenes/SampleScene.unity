@@ -979,14 +979,14 @@ MonoBehaviour:
     Cards:
     - title: Meatball Punch
       description: Basic Attack 1-Deals 5 Damage to your opponent
-      animationName: 
+      animationName: Meatball Punch
       damage: 5
       heal: 0
       shield: 0
       powerup: 1
     - title: Lunch Time
       description: prepare a meal to regain health
-      animationName: 
+      animationName: Lunch Time
       damage: 0
       heal: 25
       shield: 0
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       powerup: 2
     - title: Lunch Tray Block
       description: Use a lunch tray as a shield
-      animationName: 
+      animationName: Lunch Tray Block
       damage: 0
       heal: 0
       shield: 10
@@ -1050,7 +1050,7 @@ MonoBehaviour:
       powerup: 0
     - title: Quick Snack
       description: Heal your character for 10 HP
-      animationName: 
+      animationName: Quick Snack
       damage: 0
       heal: 0
       shield: 10
