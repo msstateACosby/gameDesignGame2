@@ -20,6 +20,6 @@ public class ExitButton : MonoBehaviour
     void buttonClick()
     {
         Application.Quit();
-        
+        Debug.Log("Exiting game.");
     }
 }
