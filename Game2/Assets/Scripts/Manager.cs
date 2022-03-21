@@ -40,6 +40,9 @@ public class Manager : MonoBehaviour
     float endGameTimer;
     bool endedGame = false;
 
+    bool waitForComputerToFinishPlaying = false;
+    float waitingTimer;
+
     BasicAI computerAI;
 
     [SerializeField]
@@ -95,6 +98,8 @@ public class Manager : MonoBehaviour
             {
                 Debug.Log("wha");
                 computerPlayCard();
+                waitForComputerToFinishPlaying = true;
+                waitingTimer = 1f;
             }
         }
         if (endedGame)
@@ -104,6 +109,15 @@ public class Manager : MonoBehaviour
             {
                 SceneManager.LoadScene("Menu");
             }
+        }
+        if (waitForComputerToFinishPlaying)
+        {
+            waitingTimer -= Time.deltaTime;
+            if (waitingTimer < 0)
+            {
+                waitForComputerToFinishPlaying = false;
+            }
+
         }
 
         
@@ -182,11 +196,11 @@ public class Manager : MonoBehaviour
         Text spawnedObj = Instantiate(textObj);
         spawnedObj.transform.SetParent(mainCanvas.transform, false);
         spawnedObj.text = message;
-        Destroy(spawnedObj.gameObject, 2);
+        Destroy(spawnedObj.gameObject, 1);
     }
     void clickCard(int x)
     {
-        if (isComptuterTurn)
+        if (isComptuterTurn || waitForComputerToFinishPlaying)
         {
             //maybe display a message that it is not your turn.
             return;
