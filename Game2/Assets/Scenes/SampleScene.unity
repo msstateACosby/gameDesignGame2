@@ -580,63 +580,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &1453442991
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1100479544166156092, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_Name
-      value: Fat Lunch Lady
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1783733309877933615, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
 --- !u!1001 &5376725630445462409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -697,6 +640,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1341511749}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[4].title
+      value: Thermometer Puncture
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[4].Cards.Array.data[5].title
+      value: Water Hose Rush
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[0].Cards.Array.data[3].animationName
       value: Stapler Throw
       objectReference: {fileID: 0}
@@ -750,7 +701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[4].animationName
-      value: Thermometer Puncture
+      value: Therm and Scalp
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[5].animationName
@@ -758,7 +709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[6].animationName
-      value: Scalpel Slash
+      value: Therm and Scalp
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[7].animationName
@@ -801,6 +752,14 @@ PrefabInstance:
       value: Detention
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[4].Cards.Array.data[0].animationName
+      value: Meatball Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[4].Cards.Array.data[1].animationName
+      value: Lunch Time
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[4].Cards.Array.data[2].animationName
       value: Trash Can Belly Toss
       objectReference: {fileID: 0}
@@ -814,7 +773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[4].Cards.Array.data[5].animationName
-      value: Water Hose Blast
+      value: Water Hose Rush
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[4].Cards.Array.data[6].animationName
