@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class hitPlay : MonoBehaviour
+public class HitPlay : MonoBehaviour
 {
     [SerializeField]
     Text currentlySelectedText;
@@ -47,6 +47,7 @@ public class hitPlay : MonoBehaviour
         //makes sure the player actually chose someone
         if (ScenePassInfo.charSelected != -1)
         {
+            ScenePassInfo.won= -1;
             SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
         }
         else

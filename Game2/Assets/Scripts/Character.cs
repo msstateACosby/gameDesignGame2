@@ -57,6 +57,7 @@ public class Character
     {
         health += amount;
         if (health > maxHealth) health = maxHealth;
+        if (health < 0) health = 0;
 
     }
     public void setShield(int amount)

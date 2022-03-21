@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Manager : MonoBehaviour
 {
     
@@ -36,6 +37,8 @@ public class Manager : MonoBehaviour
 
     bool isComptuterTurn;
     float timer;
+    float endGameTimer;
+    bool endedGame = false;
 
     BasicAI computerAI;
 
@@ -94,6 +97,15 @@ public class Manager : MonoBehaviour
                 computerPlayCard();
             }
         }
+        if (endedGame)
+        {
+            endGameTimer -= Time.deltaTime;
+            if (endGameTimer < 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
+        }
+
         
        
     }
@@ -205,6 +217,19 @@ public class Manager : MonoBehaviour
 
 
         player.removeAvailableCard(x);
+
+        if (playerCharacter.Health == 0)
+        {
+            endedGame = true;
+            endGameTimer = 1f;
+            ScenePassInfo.won = 0;
+        }
+        else if (computerCharacter.Health == 0)
+        {
+            endedGame = true;
+            endGameTimer = 1f;
+            ScenePassInfo.won = 1;
+        }
         return cardPlayed;
     }
     void updatePanelGraphics()
