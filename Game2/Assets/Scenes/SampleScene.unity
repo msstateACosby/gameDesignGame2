@@ -580,454 +580,68 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1786526303
-GameObject:
+--- !u!1001 &5376725630445462409
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1786526305}
-  - component: {fileID: 1786526304}
-  - component: {fileID: 1786526306}
-  m_Layer: 0
-  m_Name: GameMaster
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1786526304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786526303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9905231b13672be4fad81db28e65af01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characters:
-  - name: Regular Guy
-    sprite: {fileID: 1692708348175726899, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
-    maxHealth: 65
-    shield: 0
-    powerup: 0
-    Cards:
-    - title: 'Regular  Punch '
-      description: 'Basic Punch-Deals 4 Damage '
-      animationName: Regular Punch
-      damage: 4
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Regular Kick
-      description: 'Basic Kick- Deals 4 Damage '
-      animationName: Regular Kick
-      damage: 4
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Office Tackle
-      description: Grapple Attack-Deals 10 Damage
-      animationName: Office Tackle
-      damage: 10
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Stapler Throw
-      description: 'Range attack-Deals 8 Damage '
-      animationName: 
-      damage: 8
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Coffee Splash
-      description: Special Move- Deals 14 Damage
-      animationName: 
-      damage: 14
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Pen Poke
-      description: 'Super Move- Deals 21 Damage '
-      animationName: 
-      damage: 21
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Tie Choke
-      description: Finishing Move- Deals 28 Damage
-      animationName: 
-      damage: 28
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Cubicle Hide
-      description: Shield- Blocks 25  of incoming damage
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 25
-      powerup: 0
-    - title: Water Break
-      description: Heal- Recovers 25 hp
-      animationName: 
-      damage: 0
-      heal: 25
-      shield: 0
-      powerup: 0
-    - title: Promotion
-      description: PowerUp- add 20 damage to next attack
-      animationName: Promotion
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: 20
-  - name: Buff Delivery Dude
-    sprite: {fileID: 3186013996498777153, guid: eb0b918150f69be49b7c2a3ca0935274, type: 3}
-    maxHealth: 75
-    shield: 0
-    powerup: 0
-    Cards:
-    - title: Dumbbell Punch
-      description: Basic Attack 1-Deals 6 Damage
-      animationName: 
-      damage: 6
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Donkey Kick
-      description: 'Basic Attack 2-Deals 5 Damage '
-      animationName: Donkey Kick
-      damage: 5
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Suplex
-      description: 'Grapple Attack-Deals 10 Damage '
-      animationName: Suplex
-      damage: 10
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Resistance Band Whip
-      description: 'Range attack-Deals 8 Damage '
-      animationName: 
-      damage: 8
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Fake Box Decoy
-      description: Special Move- Deals 15 Damage
-      animationName: 
-      damage: 15
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Powerbomb
-      description: 'Super Move- Deals 20 Damage '
-      animationName: Powerbomb
-      damage: 20
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Special Delivery
-      description: Finishing Move- Deals 25 Damage
-      animationName: 
-      damage: 25
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Bench Shield
-      description: Shield- Blocks 15 incoming Damage
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 15
-      powerup: 0
-    - title: Protein chug
-      description: Hea- Recovers 15 HP
-      animationName: 
-      damage: 0
-      heal: 15
-      shield: 0
-      powerup: 0
-    - title: Adrenaline Junkie
-      description: PowerUp- adds 20 damage to next attack
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: 20
-  - name: Wimpy Surgeon
-    sprite: {fileID: 8554165682634775586, guid: d11d75732e098924e934f2d3af4f9518, type: 3}
-    maxHealth: 50
-    shield: 0
-    powerup: 0
-    Cards:
-    - title: Wimpy Punch
-      description: 'Basic Punch-Deals 2 Damage '
-      animationName: Wimpy Punch
-      damage: 2
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Soft Kick
-      description: 'Basic Kick -Deals 3 Damage '
-      animationName: Soft Kick
-      damage: 3
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Suction Slam
-      description: 'Grapple Attack-Deals 10 Damage '
-      animationName: Suction Slam
-      damage: 10
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Needle Throw
-      description: 'Range attack-Deals 8 Damage '
-      animationName: Needle Throw
-      damage: 8
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Thermometer Puncture
-      description: Special Move- Deals 18 Damage
-      animationName: 
-      damage: 18
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: EKG Shock
-      description: 'Super Move- Deals 25 Damage '
-      animationName: 
-      damage: 25
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Scalpel Slash
-      description: 'Finishing Move- Deals 40 Damage '
-      animationName: 
-      damage: 40
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: 'Arpon shield '
-      description: Shield- Blocks 20 incoming Damage
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 20
-      powerup: 0
-    - title: IV rush
-      description: Heal- recovers  40 HP
-      animationName: 
-      damage: 0
-      heal: 40
-      shield: 0
-      powerup: 0
-    - title: Surgery Mode
-      description: PowerUp- adds 12 damage to next attack
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: 12
-  - name: Hot School Teacher
-    sprite: {fileID: 4002414740671074221, guid: 487c869bfea7eaa4599e3c9086944c8c, type: 3}
-    maxHealth: 60
-    shield: 0
-    powerup: 0
-    Cards:
-    - title: Super Slap
-      description: Basic Attack 1-Deals 3 Damage
-      animationName: Super Slap
-      damage: 3
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Lady Kick
-      description: 'Basic Attack 2-Deals 2 Damage '
-      animationName: Lady Kick
-      damage: 2
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Desk DDT
-      description: 'Grapple Attack-Deals 10 Damage '
-      animationName: 
-      damage: 10
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Grade Book Toss
-      description: Range attack-Deals 8 Damage
-      animationName: 
-      damage: 8
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Ruler Hit
-      description: Special Move- Deals 16 Damage
-      animationName: 
-      damage: 16
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: BackPack Surprise
-      description: 'Super Move- Deals 22 damage '
-      animationName: 
-      damage: 22
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Recess Blitz
-      description: 'Finishing Move- Deals 32 Damage '
-      animationName: Recess Blitz
-      damage: 32
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Teacher's Apple
-      description: Heal - Recovers 30 HP
-      animationName: 
-      damage: 0
-      heal: 30
-      shield: 0
-      powerup: 0
-    - title: Wall of Students
-      description: Shield- Block 30 incoming damage
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 30
-      powerup: 0
-    - title: Detention
-      description: Powerup- adds 10 damage to next attack
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: 10
-  - name: Chubby Cafeteria Lady
-    sprite: {fileID: 1100479544166156092, guid: a893cd053a6daa94baf9c58f6dcfe907, type: 3}
-    maxHealth: 80
-    shield: 0
-    powerup: 0
-    Cards:
-    - title: Meatball Punch
-      description: Basic Attack 1-Deals 5 Damage
-      animationName: 
-      damage: 5
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Kitchen Sink Kick
-      description: Basic kick- Deals 6 damage
-      animationName: 
-      damage: 6
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Trash Can Belly Toss
-      description: 'Grapple Attack-Deals 10 Damage '
-      animationName: 
-      damage: 10
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Food Fight
-      description: 'Range attack-Deals 8 Damage '
-      animationName: 
-      damage: 8
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Spatula Spank
-      description: Special Move- Deals 13 Damage
-      animationName: 
-      damage: 13
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Water Hose Blast
-      description: Super Move- Deals 18 Damage
-      animationName: 
-      damage: 18
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Tornado Pan attack
-      description: 'Finishing Move- Deals 20 Damage '
-      animationName: 
-      damage: 20
-      heal: 0
-      shield: 0
-      powerup: 0
-    - title: Quick Snack
-      description: Heal- Recovers 10 HP
-      animationName: 
-      damage: 0
-      heal: 10
-      shield: 0
-      powerup: 0
-    - title: Lunch Tray Block
-      description: Shield- Blocks 10 incoming Damage
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 10
-      powerup: 0
-    - title: Lunch Time Rush
-      description: PowerUp- adds 8 damage to next attack
-      animationName: 
-      damage: 0
-      heal: 0
-      shield: 0
-      powerup: 8
-  mainCanvas: {fileID: 1341511749}
-  cardObj: {fileID: 894885738468469464, guid: 0fdf7fa705fa4b8428da7471f2de1b89, type: 3}
-  playerPanel: {fileID: 451398044618417243, guid: 0598e3050c35f24488c2554435a2765f, type: 3}
-  computerPanel: {fileID: 1897022452307484990, guid: 7157b8af38ce28345b45c8b9e7d5ddd8, type: 3}
-  playerActions: {fileID: 1130628155763006065, guid: bb88683b196d0cc4bb7093da063654f1, type: 3}
-  computerActions: {fileID: 808619718433189434, guid: 30cd41bd6456a334294d6d7cb41a50e1, type: 3}
-  testCharSelection: 0
---- !u!4 &1786526305
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786526303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1786526306
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786526303}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 318a385e8cadc2a42b6a8372760125dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5376725629801372118, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_Name
+      value: GameMaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372136, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 1341511749}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: neutralActions
+      value: 
+      objectReference: {fileID: 925287452844311343, guid: d30f543e60a27c849b0f45a3f5f1c5e7, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
