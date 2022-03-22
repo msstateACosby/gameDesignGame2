@@ -648,6 +648,14 @@ PrefabInstance:
       value: Water Hose Rush
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[0].Cards.Array.data[0].animationName
+      value: Regular Kick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[0].Cards.Array.data[1].animationName
+      value: Regular Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[0].Cards.Array.data[3].animationName
       value: Stapler Throw
       objectReference: {fileID: 0}
