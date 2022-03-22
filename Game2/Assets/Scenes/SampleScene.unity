@@ -701,7 +701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[4].animationName
-      value: Therm and Scalp
+      value: Therm Punch
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[5].animationName
@@ -709,7 +709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[6].animationName
-      value: Therm and Scalp
+      value: Scalpel Slash
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[7].animationName
