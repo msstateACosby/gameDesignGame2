@@ -580,6 +580,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1001 &2472832204697505934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -694,6 +695,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ec5c3f0688479b4aa40a0e4c6f9736e, type: 3}
+=======
+>>>>>>> 4a19c1c23f05870e21b8468673fa6bc0e7fa464d
 --- !u!1001 &5376725630445462409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -754,6 +757,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1341511749}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[2].Cards.Array.data[4].title
+      value: Thermometer Puncture
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[4].Cards.Array.data[5].title
+      value: Water Hose Rush
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[0].Cards.Array.data[3].animationName
       value: Stapler Throw
       objectReference: {fileID: 0}
@@ -807,7 +818,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[4].animationName
+<<<<<<< HEAD
       value: Therm and Scalp
+=======
+      value: Therm Punch
+>>>>>>> 4a19c1c23f05870e21b8468673fa6bc0e7fa464d
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[2].Cards.Array.data[5].animationName
@@ -858,6 +873,14 @@ PrefabInstance:
       value: Detention
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[4].Cards.Array.data[0].animationName
+      value: Meatball Punch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
+      propertyPath: characters.Array.data[4].Cards.Array.data[1].animationName
+      value: Lunch Time
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[4].Cards.Array.data[2].animationName
       value: Trash Can Belly Toss
       objectReference: {fileID: 0}
@@ -871,7 +894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[4].Cards.Array.data[5].animationName
-      value: Water Hose Blast
+      value: Water Hose Rush
       objectReference: {fileID: 0}
     - target: {fileID: 5376725629801372137, guid: 4cf11a909a0a04742832866e2c15ef9b, type: 3}
       propertyPath: characters.Array.data[4].Cards.Array.data[6].animationName
